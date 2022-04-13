@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meku | Fruit Store</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left, #9be15d, #00e3ae);
+}
+.main{
+    width: 70%;
+    margin: auto;
+}
+.title{
+    width: 50%;
+    margin: auto auto 5% auto;
+    color: white;
+    font-size: 40px;
+    padding: 60px 25px 35px 35px;
+    transform: skewY(-10deg);
+    font-family: 'Megrim', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fruits_list{
+    display: flex;
+    background: white;
+    margin: 2% auto;
+    width: 80%;
+    transform: skewX(-25deg);
+    box-shadow: 30px 10px 10px rgba(0,0,0,0.2);
+}
+.fruits_list:hover{
+    transform: scale(1.091) skewX(-25deg);
+    transition: all 0.5s;
+}
+.imojy{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.fruitname{
+    background: linear-gradient(to bottom, #9be15d, #00e3ae);
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.stright{
+    transform: skewX(25deg);
+}
+.detail_box {
+    display: flex;
+  }
+.card__detail-box {
+    align-self: stretch;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+  }
+.organic{
+    background-image: linear-gradient(to right, #9be15d, #00e3ae);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 18px;
+}
+.amount, .price, .detail{
+    padding: 20px;
+}
+.price{
+    font-weight: bold;
+}
+.detail{
+    color: white;
+    background: linear-gradient(to bottom, #9be15d, #00e3ae);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 20px 30px;
+    cursor: pointer;
+    width: 19%;
+    text-decoration: none;
+}
+.notVisible{
+    display: none !important;
+}
+a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    transform: skewX(25deg);
+}
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="title"> 🌽 Meku Farm 👩‍🌾 </div>
+
+        {%CARDS%}
+
+    </div>
+    
+</body>
+</html>

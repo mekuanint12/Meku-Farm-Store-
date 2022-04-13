@@ -1,0 +1,68 @@
+[
+    {
+        "id": 0,
+        "productName": "Carrot",
+        "image": "🥕🥕",
+        "from": "Gonder",
+        "nutrients": "Vitamin C, Vitamin D",
+        "quantity": "7 🥕",
+        "price": "27",
+        "organic": true,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium veniam eligendi velit sed. Repellendus harum hic quos fuga laboriosam minima maiores, eos, placeat doloremque molestias maxime id ratione nam! Beatae culpa eaque corrupti sunt facere adipisci rerum, fugit ipsum at."
+    },
+    {
+        "id": 1,
+        "productName": "Tomato",
+        "image": "🍅🍅",
+        "from": "Tigray",
+        "nutrients": "Vitamin A, Vitamin K",
+        "quantity": "4 🍅",
+        "price": "15",
+        "organic": true,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium veniam eligendi velit sed. Repellendus harum hic quos fuga laboriosam minima maiores, eos, placeat doloremque molestias maxime id ratione nam! Beatae culpa eaque corrupti sunt facere adipisci rerum, fugit ipsum at."
+    },
+    {
+        "id": 2,
+        "productName": "Fresh Chess",
+        "image": "🧀🧀",
+        "from": "Borena",
+        "nutrients": "Vitamin A, Vitamin D",
+        "quantity": "5 🧀",
+        "price": "150",
+        "organic": false,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium veniam eligendi velit sed. Repellendus harum hic quos fuga laboriosam minima maiores, eos, placeat doloremque molestias maxime id ratione nam! Beatae culpa eaque corrupti sunt facere adipisci rerum, fugit ipsum at."
+    },
+    {
+        "id": 3,
+        "productName": "Avocado",
+        "image": "🥑🥑",
+        "from": "Hawasa",
+        "nutrients": "Vitamin K",
+        "quantity": "4 🥑",
+        "price": "52",
+        "organic": true,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium veniam eligendi velit sed. Repellendus harum hic quos fuga laboriosam minima maiores, eos, placeat doloremque molestias maxime id ratione nam! Beatae culpa eaque corrupti sunt facere adipisci rerum, fugit ipsum at."
+    },
+    {
+        "id": 4,
+        "productName": "Corn",
+        "image": "🌽🌽",
+        "from": "Sebeta",
+        "nutrients": "Vitamin B",
+        "quantity": "6 🌽",
+        "price": "30",
+        "organic": false,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium veniam eligendi velit sed. Repellendus harum hic quos fuga laboriosam minima maiores, eos, placeat doloremque molestias maxime id ratione nam! Beatae culpa eaque corrupti sunt facere adipisci rerum, fugit ipsum at."
+    },
+    {
+        "id": 5,
+        "productName": "Orange",
+        "image": "🍊🍊",
+        "from": "Gonder",
+        "nutrients": "Vitamin A, Vitamin D",
+        "quantity": "3 🍊",
+        "price": "50",
+        "organic": true,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium veniam eligendi velit sed. Repellendus harum hic quos fuga laboriosam minima maiores, eos, placeat doloremque molestias maxime id ratione nam! Beatae culpa eaque corrupti sunt facere adipisci rerum, fugit ipsum at."
+    }
+]

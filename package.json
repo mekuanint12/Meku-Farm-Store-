@@ -1,0 +1,11 @@
+{
+  "name": "meku-fruit-store",
+  "version": "1.0.0",
+  "description": "Meku Farm Store is a Node js based mini Farm Store Project for selling Fruits Online.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "mekuanint",
+  "license": "ISC"
+}

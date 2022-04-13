@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left, #9be15d, #00e3ae);
+}
+.main{
+    width: 70%;
+    margin: auto;
+}
+.title{
+    width: 50%;
+    margin: auto auto 5% auto;
+    color: white;
+    font-size: 40px;
+    padding: 60px 25px 35px 35px;
+    transform: skewY(-10deg);
+    font-family: 'Megrim', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.2);
+}
+
+.back{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    background: linear-gradient(to right, #9be15d, #00e3ae);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.back:hover{
+    color: black;
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.organic{
+    position: absolute;
+    display: flex;
+    background: linear-gradient(to bottom, #9be15d, #00e3ae);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: -35px 37%;
+    box-shadow: 10px 5px 15px rgba(0,0,0,0.2);
+    justify-content: center;
+    padding: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: rotate(20deg);
+}
+.notVisible{
+    display: none !important;
+}
+img {
+    width: 100%;
+    margin: 0;
+}
+.fruit_title{
+    background: linear-gradient(to bottom, #9be15d, #00e3ae);
+    padding: 20px;
+    margin-top: -5px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 40px;
+    background: white;
+}
+.detail div{
+    padding: 10px;
+}
+.shop{
+    padding: 10px;
+    background: linear-gradient(to top, #9be15d, #00e3ae);
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 103%;
+    margin-left: -10px;
+    justify-content: center;
+    transform: skewX(-25deg)
+}
+.shop:hover{
+    transform: scale(1.1) skewX(-25deg);
+}
+.shop .stright{
+    transform: skewX(25deg);
+}
+.disc{
+    margin-bottom: 20px;
+    background: white;
+    padding: 60px 30px 30px 30px;
+    margin-top: -50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="title"> 🌽 Meku Farm 👩‍🌾 </div>
+
+        <div class="container">
+                <a href="/overview.html" class="back">👈 Back </a>
+                <div class="organic {%ORGANIC%}">Organic</div>
+            
+            <img src="/IMG_20220325_141930.png" alt="">
+            <div class="fruit_title">{%FRUITNAME%}</div>
+            <div class="detail">
+                <div>🌍 From {%FROM%}</div>
+                <div>🧡 {%NUTRIENTS%}</div>
+                <div>📦 {%AMOUNT%}</div>
+                <div>💳 {%PRICE%} Birr</div>
+            </div>
+            <div class="shop"> <div class="stright">🛒 Add to Shopping Cart ({%PRICE%} Birr)</div></div>
+            <div class="disc">{%DESCRIPTION%} </div>
+
+        </div>
+
+                
+    </div>
+    
+</body>
+</html>
