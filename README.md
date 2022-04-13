@@ -1,4 +1,4 @@
-Hello, I'm Mekuanint 👋😊, This is also my first Node.js mini Project called Meku Farm Store which i made using node js back when i was studying Node.js few months a go. It was an exercise that i've being working on just for learning purpose only, it's not a real life one. 
+Hello, I'm Mekuanint 👋, This is also my first Node.js mini Project called Meku Farm Store which i made using node js back when i was studying Node.js few months a go. It was an exercise that i've being working on just for learning purpose only, it's not a real life one. 
 
 1 #To run this Code you should install Node.js on your platform (--Must--)
 2 #Then inside Visual Studio code install nodemon from npm package using i nodemon (--Optional--)
