@@ -8,6 +8,3 @@ Hello, I'm Mekuanint 👋😊, This is also my first Node.js mini Project called
 
 Thank you..!! 🙏
 
-
-
-Meku Farm Store is a Node js based mini Farm store Project for seeling Fruits online for farmers and local fruit sellers. This is just a node js exercise not a real life one. 
