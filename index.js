@@ -1,6 +1,7 @@
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
+const fs = require('fs');
 
 const tempCards = fs.readFileSync(`${__dirname}/templates/temp-card.html`, 'utf-8');
 const tempOverview = fs.readFileSync(`${__dirname}/templates/temp-overview.html`, 'utf-8');
